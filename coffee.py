@@ -16,6 +16,7 @@ if answer == "-h":
 
     if answer == "-h":
         print("not agen you fucker just read the shite above dumb ass")
+        wait = input(" ")
 
     elif answer == "coffee":
         print("Brewing coffee... ☕")
@@ -26,8 +27,10 @@ if answer == "-h":
         print("  |      |]")
         print("  \\      /")
         print("   `----'")
+        wait = input(" ")
     else:
         print("Invalid command. Try again.")
+        wait = input(" ")
 elif answer == "coffee":
     print("Brewing coffee... ☕")
     print("")
@@ -37,6 +40,8 @@ elif answer == "coffee":
     print("  |      |]")
     print("  \\      /")
     print("   `----'")
+    wait = input(" ")
 else:
     print("Invalid command. Try again.")
+    wait = input(" ")
 # got a lil bit of help from chat gpt just with the == and the ""
